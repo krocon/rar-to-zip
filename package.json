@@ -1,0 +1,41 @@
+{
+  "name": "rar-to-zip",
+  "version": "0.0.1",
+  "description": "Converts rar (cbr) to zip (cbz), batch mode and CLI",
+  "keywords": [
+    "rar",
+    "zip",
+    "convert",
+    "batch",
+    "cbr",
+    "cbz"  ],
+  "author": {
+    "name": "Marc Kronberg",
+    "email": "krocon@gmail.com",
+    "url": "www.krocon.de"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "!test",
+    "!7za.exe",
+    "!UnRAR.exe"
+  ],
+  "dependencies": {
+    "tmp": "^0.0.28",
+    "mkdirp": "^0.5.1",
+    "npmlog": "^1.2.1",
+    "commander": "^2.8.1",
+    "glob": "^5.0.15"
+  },
+  "devDependencies": {
+    "assert": "^1.3.0",
+    "es6-promise": "^3.0.2"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krocon/rar-to-zip"
+  }
+}
